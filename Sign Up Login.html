@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>登录注册页</title>
+  <link rel="stylesheet" href="style/css/style-Sign Up Login.css">
+  <script src="style/js/Sign Up Login.js"></script>
+  <link rel="stylesheet" href="style/css/style-search.css">
+  <script src="style/js/jquery.min.js"></script>
+  <script src="style/js/search.js"></script>
+  <link rel="stylesheet" href="style/css/style_2_common.css">
+</head>
+
+<body>
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+<div id="vivo-head">
+  <div class="clear"></div>
+  <div class="vivo-search">
+    <div class="search-box">
+      <form action='#' method='post'>
+        <input type="text" placeholder="如:微软XBOX" name='q' class='data_q' autocomplete="off"><button>搜索</button><a class="close"></a>
+      </form>
+    </div>
+  </div>
+  <div class="vivo-nav cl">
+    <div class="wk_logo">
+      <h2><a href="index.html" title=""><img src="style/images/logo.png" alt="" border="0" /></a></h2>
+    </div>
+    <div class="search-user">
+      <a href="#" class="search">
+        <b></b>
+      </a>
+      <a href="Sign%20Up%20Login.html" class="user">
+        <b></b>
+      </a>
+    </div>
+    <div class="wk_inav">
+      <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+
+        <li><a href="news.html" >硬件资讯</a></li>
+
+        <li><a href="wenti.html" >软件工具</a></li>
+
+        <li><a href="case.html" >编程技术</a></li>
+
+        <li><a href="CG.html" >CG技术</a></li>
+
+        <li><a href="contact.html" >Contact us</a></li>
+
+        <li><a href="about.html" >About us</a></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="cotn_principal">
+  <div class="cont_centrar">
+    <div class="cont_login">
+      <div class="cont_info_log_sign_up">
+        <div class="col_md_login">
+          <div class="cont_ba_opcitiy">
+            <h2>LOGIN</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <button class="btn_login" onClick="cambiar_login()">LOGIN</button>
+          </div>
+        </div>
+        <div class="col_md_sign_up">
+          <div class="cont_ba_opcitiy">
+            <h2>SIGN UP</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            <button class="btn_sign_up" onClick="cambiar_sign_up()">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+      <div class="cont_back_info">
+        <div class="cont_img_back_grey"> <img src="style/images/po.jpg" alt="" /> </div>
+      </div>
+      <div class="cont_forms" >
+        <div class="cont_img_back_"> <img src="style/images/po.jpg" alt="" /> </div>
+        <div class="cont_form_login"> <a href="#" onClick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+          <h2>LOGIN</h2>
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button class="btn_login" onClick="cambiar_login()">LOGIN</button>
+        </div>
+        <div class="cont_form_sign_up"> <a href="#" onClick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+          <h2>SIGN UP</h2>
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="User" />
+          <input type="password" placeholder="Password" />
+          <input type="password" placeholder="Confirm Password" />
+          <button class="btn_sign_up" onClick="cambiar_sign_up()">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
